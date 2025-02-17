@@ -82,7 +82,10 @@ function fancybox() {
         //and the plugins...
         include_jQueryPlugin('fancybox', $pth['folder']['base'] . 'plugins/hi_fancybox/libs/fancybox/jquery.fancybox.min.js');
         //stylesheet
-        $hjs .= "\n" . tag('link rel="stylesheet" type="text/css" media="screen" href="' . $pth['folder']['base'] . 'plugins/hi_fancybox/libs/fancybox/jquery.fancybox.min.css"');
+        $hjs .= "\n"
+              . '<link rel="stylesheet" type="text/css" media="screen" href="'
+              . $pth['folder']['base']
+              . 'plugins/hi_fancybox/libs/fancybox/jquery.fancybox.min.css">';
         $hjs .= "\n";
         //include_jQueryPlugin('easing', $pth['folder']['base'] . 'plugins/hi_fancybox/libs/fancybox/fancybox-1.3.4/jquery.easing-1.3.pack.js');
         if ($plugin_cf['hi_fancybox']['activate_mousewheel']) {

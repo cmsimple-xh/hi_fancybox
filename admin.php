@@ -53,25 +53,25 @@ function hi_fancybox_info() {
     global $plugin_cf, $plugin_tx;
 
     $t = '<h1>hi_FancyBox</h1>' . "\n";
-    $t .= tag('br') . "\n";
-    $t .= '<strong>Version: </strong>' . HI_FANCYBOX_MAIN . tag('br') . "\n";
-    $t .= '&copy;2011 - 2017 Holger Irmler' . tag('br') . "\n";
-    $t .= 'Email: <a href="mailto:CMSimple@HolgerIrmler.de">CMSimple@HolgerIrmler.de</a>' . tag('br') . "\n";
-    $t .= 'Website: <a href="http://cmsimple.holgerirmler.de" target="_blank">http://CMSimple.HolgerIrmler.de</a>' . tag('br') . "\n";
-    $t .= tag('br') . "\n";
-    $t .= 'If you like this plugin, or using it in a commercial scope,' . tag('br') . "\n";
-    $t .= 'consider <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2888355" target="_blank">donating a few bucks to me via PayPal</a>.' . tag('br') . "\n";
-    $t .= tag('br') . "\n";
-    $t .= tag('hr size="1"') . "\n";
-    $t .= tag('br') . "\n";
-    $t .= $plugin_tx['hi_fancybox']['usage'] . tag('br') . "\n";
-    $t .= $plugin_tx['hi_fancybox']['usage2'] . tag('br') . "\n";
-    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_single']) . '</b> ' . $plugin_tx['hi_fancybox']['class1'] . tag('br') . "\n";
-    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_group']) . '</b> ' . $plugin_tx['hi_fancybox']['class2'] . tag('br') . "\n";
-    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_iframe']) . '</b> ' . $plugin_tx['hi_fancybox']['class3'] . tag('br') . "\n";
-    $t .= tag('br') . "\n";
-    $t .= tag('hr size="1"') . "\n";
-    $t .= tag('br') . "\n";
+    $t .= '<br>' . "\n";
+    $t .= '<strong>Version: </strong>' . HI_FANCYBOX_MAIN . '<br>' . "\n";
+    $t .= '&copy;2011 - 2017 Holger Irmler<br>' . "\n";
+    $t .= 'Email: <a href="mailto:CMSimple@HolgerIrmler.de">CMSimple@HolgerIrmler.de</a><br>' . "\n";
+    $t .= 'Website: <a href="http://cmsimple.holgerirmler.de" target="_blank">http://CMSimple.HolgerIrmler.de</a><br>' . "\n";
+    $t .= '<br>' . "\n";
+    $t .= 'If you like this plugin, or using it in a commercial scope,<br>' . "\n";
+    $t .= 'consider <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2888355" target="_blank">donating a few bucks to me via PayPal</a>.<br>' . "\n";
+    $t .= '<br>' . "\n";
+    $t .= '<hr size="1">' . "\n";
+    $t .= '<br>' . "\n";
+    $t .= $plugin_tx['hi_fancybox']['usage'] . '<br>' . "\n";
+    $t .= $plugin_tx['hi_fancybox']['usage2'] . '<br>' . "\n";
+    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_single']) . '</b> ' . $plugin_tx['hi_fancybox']['class1'] . '<br>' . "\n";
+    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_group']) . '</b> ' . $plugin_tx['hi_fancybox']['class2'] . '<br>' . "\n";
+    $t .= '<b>' . hi_fancybox_className($plugin_cf['hi_fancybox']['class_iframe']) . '</b> ' . $plugin_tx['hi_fancybox']['class3'] . '<br>' . "\n";
+    $t .= '<br>' . "\n";
+    $t .= '<hr size="1">' . "\n";
+    $t .= '<br>' . "\n";
     return $t;
 }
 
