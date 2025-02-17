@@ -18,8 +18,11 @@
  * @build: 2017050101
  */
 
-if ((!function_exists('sv')) || preg_match('#hi_fancybox' . DIRECTORY_SEPARATOR . 'index.php#i', sv('PHP_SELF')))
+if ((!function_exists('sv'))
+|| preg_match('#hi_fancybox' . preg_quote(DIRECTORY_SEPARATOR, '#') . 'index.php#i',
+              sv('PHP_SELF'))) {
     die('Access denied');
+}
 
 function fancybox() {
     global $bjs, $hjs, $o, $plugin_cf, $plugin_tx, $pth;
