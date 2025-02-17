@@ -1,5 +1,6 @@
 <?php
 
+$plugin_tx['hi_fancybox']['menu_main'] = "Info";
 $plugin_tx['hi_fancybox']['usage']="<b>Aktivierung:</b>";
 $plugin_tx['hi_fancybox']['usage2']="Erweitere die Links mit einer der folgenden CSS-Klassen:";
 $plugin_tx['hi_fancybox']['class1']="für ein einzelnes Bild";
@@ -40,5 +41,3 @@ $plugin_tx['hi_fancybox']['cf_fcb_enableEscapeButton']="Fancy-Box mit ESC-Taste 
 $plugin_tx['hi_fancybox']['cf_fcb_showIframeLoading']="Animation beim Laden von Iframes anzeigen.";
 $plugin_tx['hi_fancybox']['cf_fcb_padding']="Abstand zwischen FancyBox wrapper und dem Inhalt (entspricht dem weißen Rahmen um den Inhalt). Angabe <b>ohne</b> Einheit. Standard: 10. Mit 0 kann der Rahmen komplett entfernt werden.";
 $plugin_tx['hi_fancybox']['cf_fcb_margin']="Abstand zwischen Viewport und der FancyBox. Standard: 20. Angabe <b>ohne</b> Einheit.";
-
-?>

@@ -34,5 +34,3 @@ $plugin_mcf['hi_fancybox']['fcb_easingOut']="enum:'linear','swing'";
 $plugin_mcf['hi_fancybox']['fcb_showCloseButton']="bool";
 $plugin_mcf['hi_fancybox']['fcb_enableEscapeButton']="bool";
 $plugin_mcf['hi_fancybox']['fcb_showIframeLoading']="bool";
-
-?>

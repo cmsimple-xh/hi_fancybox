@@ -1,11 +1,6 @@
 <?php
 
 /*
- * @version $Id: index.php 28 2017-05-01 12:39:45Z hi $
- *
- */
-
-/*
  * hi_FancyBox for CMSimple - main module
  *
  * A simple plugin to include FancyBox (http://fancybox.net)
@@ -13,9 +8,15 @@
  *
  * @author Holger Irmler
  * @link http://CMSimple.HolgerIrmler.de
- * @version 4.1
- * @date: 2017-05-01
- * @build: 2017050101
+ *
+ * @copyright 2025 The CMSimple_XH developers <https://www.cmsimple-xh.org/?The_Team>
+ * @author    The CMSimple_XH developers <devs@cmsimple-xh.org>
+ *
+ * @license    GNU GPLv3 - http://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * @version 4.2
+ * @date: 2025-02-17
+ * @build: 2025021701
  */
 
 if ((!function_exists('sv'))
@@ -54,7 +55,7 @@ function fancybox() {
                         $.fancybox.refresh();
                     };
                     /* ]]> */
-		</script>' . "\n";
+        </script>' . "\n";
     } 
     
     $fcbSettings .=
@@ -130,7 +131,7 @@ function fancybox() {
                         });
                     });
                     /* ]]> */
-		</script>' . "\n";
+        </script>' . "\n";
 
         if (isset($bjs)) {
             $bjs .= $fcbJs;
