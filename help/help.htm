@@ -1,0 +1,595 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  
+  <title>hi_FancyBox :: Help</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <style>
+html, body {
+margin: 0;
+padding: 0;
+}
+body {
+font-family: verdana, arial, sans-serif;
+background-color: #e2e2e2;
+text-align: center;
+font-size: 0.9em;
+line-height: 1.3;
+}
+.additional{
+font-size: 90%;
+color: #666;
+line-height: 1.1;
+}
+  </style>
+</head>
+
+
+<body>
+
+
+
+
+
+<div style="border: 1px solid rgb(187, 187, 187); margin: 0px auto auto; padding: 0pt 3em; text-align: left; width: 780px; background-color: rgb(255, 255, 255);">
+<h1>hi_FancyBox 4.0</h1>
+
+
+
+
+
+<p>A little CMSimple-plugin which includes and activates the great <a href="http://fancybox.net" target="_blank">FancyBox JavaScript</a> to your CMSimple-Website. </p>
+
+
+
+
+
+<p> &copy; 2011-2016 Holger Irmler, <a target="_blank" href="http://cmsimple.holgerirmler.de">http://CMSimple.HolgerIrmler.de</a>.
+</p>
+
+
+
+
+
+
+
+
+<p class="additional">The plugin is free for use on your website, commercial or not commerial. But&nbsp;If you&nbsp;deliver it as part of your paid
+service to your customers or use it in a commercial scope, please be fair and support the project <br>
+
+
+with a&nbsp;small <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;hosted_button_id=2888355" target="_blank">donation via paypal</a>&nbsp;!<br>
+
+
+
+
+
+</p>
+
+
+
+
+
+<h2>Features</h2>
+
+
+
+
+
+<ul>
+
+
+
+
+
+  <li>Includes all necessary javascripts and stylesheets (no changes in the template necessary)</li>
+
+
+
+
+
+  <li>Supports single images, grouped images, iframe content</li>
+
+
+
+
+
+  <li>Compatible with <a href="http://cmsimple.holgerirmler.de/?Plugins:lb_Gallery" target="_blank">lb_Gallery</a></li>
+
+
+  <li>Easy activation, just by adding a class in the editor-dialogs (no source-code editing)</li>
+
+
+
+
+
+</ul>
+
+
+
+
+
+<h2>Requirements</h2>
+
+
+
+
+
+<ul>
+
+
+  <li> CMSimple or CMSimple_XH with a working Pluginloader.
+Recommended
+Pluginloader-Version is &gt;= 2.1)</li>
+
+
+  <li>Your document should have a valid DocType</li>
+
+
+  <li><a href="http://www.cmsimple-xh.com/wiki/doku.php/plugins:jquery4cmsimple" target="_blank">jQuery4CMSimple</a> must be installed
+and working</li>
+
+
+</ul>
+
+
+
+
+
+<h2>Installation</h2>
+
+
+
+
+
+<ol>
+
+
+
+
+
+  <li> <b>Always make a backup of your installation</b>
+before adding a new plug-in. </li>
+
+
+
+
+
+  <li>Unzip the archive and copy the files and folders into your
+plugins-folder. <span class="additional">
+    
+    
+    
+    
+    <p>It should look like this: </p>
+
+
+
+
+
+    
+    
+    
+    
+    <ul>
+
+
+
+
+
+      <li>[Root]
+        
+        
+        
+        
+        <ul>
+
+
+
+
+
+          <li>[(2lang)]</li>
+
+
+
+
+
+          <li>[cmsimple]</li>
+
+
+
+
+
+          <li>...</li>
+
+
+
+
+
+          <li>[plugins]
+            
+            
+            
+            
+            <ul>
+
+
+
+
+
+              <li>...</li>
+
+
+
+
+
+              <li>[pluginloader]</li>
+
+
+
+
+
+              <li><b>[hi_fancybox]</b>
+                
+                
+                
+                
+                <ul>
+
+
+
+
+
+                  <li><b>[config]</b></li>
+
+
+
+
+
+                  <li><b>[help]</b></li>
+
+
+
+
+
+                  <li><b>[languages]</b></li>
+
+
+                  <li><span class="additional"><b>[libs]</b></span></li>
+
+
+
+
+
+                  <li>admin.php</li>
+
+
+
+
+
+                  <li>index.php</li>
+
+
+
+
+
+                  
+
+
+                
+                
+                
+                
+                </ul>
+
+
+
+
+
+              </li>
+
+
+
+
+
+              <li>index.php</li>
+
+
+
+
+
+            
+            
+            
+            
+            </ul>
+
+
+
+
+
+          </li>
+
+
+
+
+
+          <li>[...]</li>
+
+
+
+
+
+          <li>index.php</li>
+
+
+
+
+
+        
+        
+        
+        
+        </ul>
+
+
+
+
+
+      </li>
+
+
+
+
+
+    
+    
+    
+    
+    </ul>
+
+
+
+
+
+    </span> </li>
+
+
+
+
+
+  
+  
+  
+  
+  <p>The file plugins/hi_fancybox/config/config.php needs to be set
+writable.</p>
+
+
+
+
+
+  
+  
+  
+  
+  <p class="additional">(To edit the
+languages&nbsp;online do the same with the language files in
+plugins/hi_fancybox/languages.) </p>
+
+
+
+
+
+  <li>You're ready to use the plugin! <br>
+
+
+
+
+
+There is no need to activate something by scripting, since it just
+consist of an backend. </li>
+
+
+
+
+
+</ol>
+
+
+
+
+
+<h2>Usage</h2>
+
+
+Edit your content and insert links as usual in the WYSIWYG-Editor.<br>
+
+
+To open a link inside a fancybox, just select the "Advanced"-tab from the link-dialog<br>
+
+
+and add to the "class" field one of the values below:
+<ul>
+
+
+  <li>zoom &nbsp; &nbsp; &nbsp;(to open a single image in the fancybox)</li>
+
+
+  <li>zoom<span style="font-weight: bold;">_g </span>&nbsp;(to create a fancybox-gallery with all grouped images of this class)</li>
+
+
+  <li>zoom<span style="font-weight: bold;">_i</span> &nbsp; (to open the link-href, like "http://www.google.com", inside a Fancybox-iframe</li>
+
+
+</ul>
+
+You can redefine the name for each selector in the configuration of the plugin.
+<ol>
+
+
+</ol>
+
+
+
+
+
+
+<h2>Configuration</h2>
+
+
+<ol>
+
+
+  <li>Login to your CMSimple site</li>
+
+
+  <li>Select the "hi_Fancybox-Plugin" from the list of available
+plugins</li>
+
+
+  <li>Click on "Plugin Config" to view or edit the configuration settings</li>
+
+
+</ol>
+
+
+
+
+
+There are hints for every configuration option available, if you hover with your mouse over the little blue questionmark.<br>
+
+
+<br>
+
+
+<span style="font-weight: bold;">Please take care on correct syntax:</span><br>
+
+
+every config-setting, starting with "fcb", gets included to the FancyBox configuration array.<br>
+
+
+So it must have correct JavaScript-Syntax, otherwise the script will fail:<br>
+
+
+<ul>
+
+
+  <li>String-Settings must covered in single quotes. Examples: <span style="font-style: italic;">'fade', '#666', 'inside'</span></li>
+
+
+  <li>Numeric-Settings must never covered in quotes. Examples: <span style="font-style: italic;">0.3, 300, 500</span></li>
+
+
+  <li>Keywords must never covered in quotes. Examples: <span style="font-style: italic;">true, false</span></li>
+
+
+</ul>
+
+
+
+
+
+<ol>
+
+
+</ol>
+
+
+<h2>How to use together with lb_Gallery</h2>
+
+
+To use hi_fancybox together with my <a href="http://cmsimple.holgerirmler.de/?Plugins:lb_Gallery" target="_blank">lb_Gallery-Plugin</a>, just do the following settings in lb_Gallery configuration:<br>
+
+
+<ul>
+
+
+  <li><span style="font-style: italic;">use external lib</span> : must be empty</li>
+
+
+  <li><span style="font-style: italic;">use lightbox</span> : true</li>
+
+
+  <li><span style="font-style: italic;">use rel attrib</span> : fancybox</li>
+
+
+</ul>
+
+
+you're done ;-).
+<h2>Acknowledgment</h2>
+
+
+
+
+
+<ul>
+
+
+
+
+
+  <li><a href="http://fancybox.net/home" target="_blank">FancyBox</a> is written by Janis Skarnelis and dual-licensed under&nbsp;<a target="_blank" href="http://docs.jquery.com/Licensing">MIT and GPL licenses</a></li>
+
+
+
+
+
+</ul>
+
+
+
+<h2>Plugin-License</h2>
+
+
+
+For the detailed license please refer to the shipped <a href="../license.txt" target="_blank">license.txt</a>.
+
+<ol>
+
+
+
+
+
+</ol>
+
+
+
+
+
+<h2>Need help?</h2>
+
+
+
+
+
+<p>... visit <a target="_blank" href="http://www.cmsimpleforum.com">cmsimpleforum.com</a>.</p>
+
+
+
+
+
+<span style="font-weight: bold;">
+<br>
+
+
+
+
+
+</span>
+<pre style="font-weight: bold; line-height: 1.2em; font-size: 90%; color: rgb(102, 102, 102);"> THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED <br> IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND,<br> EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS<br> FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD<br> THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION.<br> </pre>
+
+
+
+
+
+</div>
+
+
+
+
+
+</body>
+</html>

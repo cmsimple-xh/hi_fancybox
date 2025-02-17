@@ -1,0 +1,34 @@
+hi_fancybox License   2011-02-05
+
+It was a lot of work building this plugin.
+So please be fair and accept this simple license:
+
+
+TERMS OF USE
+
+This plugin is free to use on your own on website - commercial or non-commercial.
+
+If you are planning to deliver it as part of your paid service to your customers, 
+or if you use it in a commercial scope, please consider to support my work with a small donation by PayPal:
+
+https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2888355
+
+without my permisson
+- it is not allowed to redistribute this plugin
+- it is not allowed to build and/or distribute modificated versions based on this plugin
+
+
+THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY
+APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT
+HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY
+OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO,
+THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR
+PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM
+IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF
+ALL NECESSARY SERVICING, REPAIR OR CORRECTION.
+
+
+Holger Irmler
+
+Website: http://cmsimple.holgerirmler.de
+mailto: cmsimple@holgerirmler.de
